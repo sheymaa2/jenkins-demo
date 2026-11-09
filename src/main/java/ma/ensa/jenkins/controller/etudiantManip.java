@@ -21,7 +21,7 @@ public class etudiantManip {
 
     public static boolean verifyAppogee(long appogee)
     {
-        return appogee >= 10_000_000L || appogee <= 99_999_999L;
+        return appogee >= 10_000_000L && appogee <= 99_999_999L;
     }
 
 
